@@ -15,7 +15,7 @@ body{
     background: var(--lightgray);
 }
 
-.card{
+.card-qr{
     display: flex;
     flex-direction: column;
     align-items: center;
