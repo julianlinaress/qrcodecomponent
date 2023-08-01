@@ -8,7 +8,7 @@
 }
 
 body{
-    margin-top: 15rem;
+    margin-top: 10rem;
     font-family: Outfit;
     display: flex;
     justify-content: center;
@@ -52,4 +52,12 @@ body{
     color: var(--gray-blue);
     font-weight: 400;
     font-size: 17px;
+}
+
+@media only screen and (max-width:500px) {
+    body{
+        margin-top: 2rem;
+        padding: 10px;
+    }
+    
 }
